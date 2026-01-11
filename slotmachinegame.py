@@ -23,7 +23,7 @@ while crediti > 0:
         break
 
     # controllo che l'input sia un numero
-    if puntata.isdigit():
+    if puntata():
         puntata = int(puntata)
 
         # controllo che la puntata sia valida
@@ -67,4 +67,5 @@ while crediti > 0:
 if crediti == 0:
     print("Sei andato in bancarotta!")
 else:
+
     print("Gioco terminato con", crediti, "crediti")
